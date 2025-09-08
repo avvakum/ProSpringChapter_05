@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class GrammyGuitarist implements Singer {
-    private static Logger LOGGER = LoggerFactory.getLogger(GreatGuitarist.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(GrammyGuitarist.class);
 
     @Override
     public void sing() {
