@@ -39,7 +39,9 @@ public class StaticPointcutDemo {
 
 
         proxyTwo.sing();
+        //DEBUG: SimpleAroundAdvice - >> Invoking sing
         //INFO : GoodGuitarist - Head on your heart, arms around me
+        //DEBUG: SimpleAroundAdvice - >> Done
         //INFO : GreatGuitarist - You've got my soul in your hand
     }
 }
