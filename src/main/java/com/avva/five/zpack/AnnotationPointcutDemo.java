@@ -22,6 +22,9 @@ public class AnnotationPointcutDemo {
         AnnotatedGuitarist proxy = (AnnotatedGuitarist) proxyFactory.getProxy();
         proxy.sing(new Guitar());
         proxy.rest();
-
     }
 }
+
+//DEBUG: SimpleAroundAdvice - >> Invoking sing
+//INFO : AnnotatedGuitarist - play: G C G C Am D7
+//DEBUG: SimpleAroundAdvice - >> Done
