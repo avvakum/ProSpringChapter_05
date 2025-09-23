@@ -1,6 +1,5 @@
 package com.avva.five.performance;
 
-import groovy.swing.factory.LayoutFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.Advisor;
@@ -99,3 +98,11 @@ public class ProxyPerfTestDemo {
         return testResults;
     }
 }
+
+//INFO : ProxyPerfTestDemo - Starting tests ...
+//INFO : ProxyPerfTestDemo -  --- CGLIB (Standard) Test results ---
+// com.avva.five.performance.TestResults@662ac478[advised=431,unadvised=186,equals =15,hashCode=19,getProxyTargetClass =8]
+//INFO : ProxyPerfTestDemo -  --- CGLIB (Frozen) Test results ---
+// com.avva.five.performance.TestResults@26794848[advised=166,unadvised=106,equals =93,hashCode=22,getProxyTargetClass =66]
+//INFO : ProxyPerfTestDemo -  --- JDK Test results ---
+// com.avva.five.performance.TestResults@7770f470[advised=429,unadvised=238,equals =160,hashCode=56,getProxyTargetClass =100]
