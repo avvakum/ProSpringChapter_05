@@ -1,7 +1,6 @@
 package com.avva.five.introduction;
 
 import org.aopalliance.intercept.MethodInvocation;
-import org.jspecify.annotations.Nullable;
 import org.springframework.aop.support.DelegatingIntroductionInterceptor;
 
 import java.io.Serial;
