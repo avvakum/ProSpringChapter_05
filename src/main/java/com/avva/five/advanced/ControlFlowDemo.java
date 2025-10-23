@@ -36,3 +36,9 @@ public class ControlFlowDemo {
         bean.foo();
     }
 }
+
+//INFO : ControlFlowDemo - 	Trying normal invoke
+//INFO : TestBean - foo()
+//INFO : ControlFlowDemo - 	Trying under ControlFlowDemo.test()
+//INFO : SimpleBeforeAdvice - Before method: public void com.avva.five.advanced.TestBean.foo()
+//INFO : TestBean - foo()
