@@ -25,3 +25,11 @@ public class AspectjexpPointcutDemo {
         proxy.rest();
     }
 }
+
+//DEBUG: SimpleAroundAdvice - >> Invoking sing
+//INFO : Guitarist - Just keep me where the light is
+//DEBUG: SimpleAroundAdvice - >> Done
+//DEBUG: SimpleAroundAdvice - >> Invoking sing2
+//INFO : Guitarist - And wrap me in your arms
+//DEBUG: SimpleAroundAdvice - >> Done
+//INFO : Guitarist - zzz...zzz...zzz...
